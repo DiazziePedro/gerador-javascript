@@ -11,7 +11,7 @@ let cliques = 0; //contador de frases geradas
 function gerarFrases(){
     let indice = Math.floor(Math.random() * frases.length);
 
-    let fraseEscolhida = frases[indice]
+    let fraseEscolhida = frases[indice];
 
     cliques = cliques+1;
 
